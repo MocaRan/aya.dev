@@ -1,0 +1,78 @@
+@import url(https://fonts.googleapis.com/earlyaccess/jejugothic.css);
+    .main{
+        width: 100%;
+        height: 100%;
+        border-collapse: separate;
+        border-spacing: 0 10px;
+        position: relative;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Jeju Gothic', sans-serif;
+    }
+    .main2{
+        width: 100%;
+        height: 60%;
+        border-collapse: separate;
+        border-spacing: 2px;
+        position: relative;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: sans-serif;
+    }
+    .main2::after{
+        width: 100%;
+        height: 100%;
+        content: "";
+        background-size: cover;
+        background-color:#FFC1DC;
+        background-position: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        opacity: 0.8;
+    }
+    .image { 
+        margin-top:20px; 
+        position: relative; 
+        width: 100%; 
+        padding-bottom: 56.25%; 
+    } 
+    #image { 
+        margin-top: calc(20vw + 15px);
+        position: relative; 
+        width: calc(40vw + 200px);
+
+    } 
+    .youtube iframe { 
+        position: absolute; 
+        width: 100%; 
+        height: 100%; 
+    }
+    #content{
+        font-size: calc(2vw + 18px); 
+        text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+    }
+    #goto{
+        font-size: calc(1.2vw + 18px); 
+        text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+    }
+    a#site{
+        text-decoration:none;
+    }
+    a#site:hover{
+        text-decoration:underline;
+    }
+    .center{
+        text-align: center;
+    }
+    body {
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+        margin-right: 0px;
+    }
